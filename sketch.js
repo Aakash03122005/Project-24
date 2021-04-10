@@ -12,7 +12,7 @@ function setup(){
 
     box1 = new Box(180,100,50,100);
     box2 = new Box2(200,300,50,50);
-    box3 = new Box(180,250,50,100);
+    box3 = new Box3(300,200,70,35);
    
     rubberObj = new Circle(150,200,40);
 
@@ -29,10 +29,8 @@ function draw(){
 
     box1.display();
     box2.display();
-    
-    fill("red");
     box3.display();
-
+  
     rubberObj.display();
     rubberObj.display();
     
